@@ -124,7 +124,7 @@
 	if(!empty($wpcx_cxOptions["slide_duration"])) {
 		$wpcx_slide_duration = $wpcx_cxOptions["slide_duration"];
 	} else {
-		$wpcx_slide_duration = 3000;
+		$wpcx_slide_duration = 5000;
 	}
 
 	if($wpcx_slide_show != "no") {
@@ -234,10 +234,12 @@
 					<li><a href="http://asg.northwestern.edu/wp" target="_blank">Associated Student Government</a></li>
 					<li><a href="http://www.it.northwestern.edu" target="_blank">NUIT</a></li>
 					<li><a href="http://www.northwestern.edu" target="_blank">Northwestern University</a></li>
+					<li><a href="http://www.northwestern.edu/residentialcolleges" target="_blank">Office of Residential Academic Initiatives</a></li> 
 				</ul>
 			</div>
 		</div>
 	</div>
+
 	<div class="col-md-4 col-sm-6">
 		<div class="panel panel-default">
 			<div class="panel-heading">
@@ -265,9 +267,12 @@
 			</div>
 			<div class="panel-body">
 				<div class="fb-like-box" data-href="https://www.facebook.com/SlivkaRC" data-height="390" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+				<div style="position: absolute; bottom: 18px; right: 17px;" "><a href="http://slivka.northwestern.edu/whats-with-all-the-gnomes"><img width="24px" height="62.25px" src="http://slivka.northwestern.edu/wordpress/wp-content/uploads/2015/04/gnome.png"></img></a></div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div style="position: absolute; bottom: 100px; right:10px"><a href="http://slivka.northwestern.edu/wordpress/wp-content/uploads/2015/04/octopusgif.gif">!!</a></div>
 
 <?php get_footer(); ?>
