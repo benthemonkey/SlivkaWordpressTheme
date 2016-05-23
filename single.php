@@ -43,6 +43,7 @@
 					<?php the_content();?>
 					<?php the_tags( '<p class="meta">Tags: ', ', ', '</p>'); ?>
 				</div>
+				<div class="clearfix"></div>
 				<?php wp_link_pages(array('before' => '<div class="wp-pagenavi">Pages: ', 'after' => '</div>')); ?>
 				<?php edit_post_link('Edit Post'); ?>
 
@@ -54,7 +55,7 @@
 				<?php endwhile; endif;?>
 
 				<div id="comment-wrap">
-					<?php comments_template(); ?>
+					<?php /*comments_template();*/ ?>
 				</div>
 			</div>
 		</div>
