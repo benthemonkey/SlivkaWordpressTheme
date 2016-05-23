@@ -28,8 +28,8 @@
 <?php if(get_page_template_slug() == "points_center.php"){
 	include($_SERVER["DOCUMENT_ROOT"] . "/points/footer.html");
 }else{ ?>
-<script type="text/javascript" src="/points/bower_components/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/points/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/points/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/points/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script type="text/javascript" src="/points/js/iframeHeight.js"></script>
 <script>
 $(document).ready(function(){
